@@ -1,0 +1,89 @@
+.select{
+padding: 0;
+height: 30px;
+position: relative;
+left: 0;
+outline: none;
+border: 1px solid #cdcdcd;
+border-color: rgba(0,0,0,.15);
+background-color: white;
+font-size: 16px;
+border-radius: 5px;
+margin:15px;
+color:black;
+margin-left:28px;
+margin-right:-5px;
+}
+.walkin{
+  font-family:raleway !important;
+}
+
+
+
+.org{
+  margin-left:10px! important;
+}
+@media screen and (min-width: 800px) {
+  input[type=text], input[type=password]{
+    width:250px !important;
+    margin-right:-5px !important;
+    /* text-transform:uppercase; */
+    margin:15px;
+  }
+  .select{
+    width:250px;
+  }
+  .nametext{
+    margin-left:60px !important;
+  }
+  .rightcol{
+    margin-top:3% !important;
+  }
+  .requestrow{
+    margin-top:6% !important;
+  }
+}
+
+@media all and (max-width: 600px){
+  input[type=text], input[type=password]{
+    margin-right:-5px !important;
+  }
+  .select{
+    width:180px;
+  }
+  .mainlogo{
+    width:30%;
+    margin-left:35%;
+  }
+  .nametext{
+    margin-left:60px !important;
+  }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+  .mainlogo{
+    width:30%;
+    margin-left:35%;
+    margin-bottom:3%;
+  }
+  .walkinhead{
+    font-size:45px;
+  }
+  .walkin{
+    font-size:30px;
+  }
+  .walkin input[type=text], input[type=password]{
+    font-size:30px;
+  }
+  .nametext{
+    margin-left:14% !important;
+  }
+  .requestrow{
+    font-size:41px !important;
+    margin-top:7% !important;
+  }
+  .requestrow h3{
+    font-size:47px !important;
+  }input[type=text], input[type=password]{
+    height:5%;
+  }
+}

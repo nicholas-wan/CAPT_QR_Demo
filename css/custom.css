@@ -1,0 +1,158 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+.maincontent{
+  background-color:#7C133A;
+}
+.headerlogo{
+  width: 135px;
+}
+.mainlogo{
+  margin-bottom:30px;
+  background-color:wheat;
+  margin-top:30px;
+  padding:30px;
+  border: 3px solid gold;
+  border-radius:10px;
+}
+input[type=text],input[type=password] {
+  padding: 0;
+  height: 30px;
+  position: relative;
+  left: 0;
+  outline: none;
+  border: 1px solid #cdcdcd;
+  border-color: rgba(0,0,0,.15);
+  background-color: white;
+  font-size: 16px;
+  border-radius:5px;
+}
+
+.QRCODE{
+  color: white;
+  font-family: raleway;
+  font-size:20px !important;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #7C133A;
+  color: white;
+  text-align: center;
+  font-family:raleway;
+  font-size:10px;
+  filter:invert(10%)
+}
+.copyright{
+  margin-top:10px;
+}
+.navbar{
+  margin-bottom:8px !important;
+}
+.hiddenbutton{
+  display:none;
+}
+.requestrow{
+  font-family:raleway !important;
+  color:white !important;
+  font-size:27px !important;
+  text-align:center;
+  margin-top:10px;
+}
+.navbar-nav {
+  float:right!important;
+}
+.navbar-nav a{
+  color:#7e1536 !important;
+  font-size:17px;
+  margin-right:20px;
+}
+.QR{
+  text-align:center;
+}
+h3{
+  display:inline !important;
+  font-size:37px !important;
+  color:#BC9C63 !important;
+  text-decoration:underline;
+  text-transform:uppercase;
+}
+.walkin{
+  text-align:center;
+  color:white!important;
+  font:raleway !important;
+  font-size:17px;
+}
+.submitbutton{
+  background-color:transparent;
+  border:none;
+  text-transform:uppercase;
+  letter-spacing: .08em;
+  width:100%;
+  margin:-20px;
+  padding:20px;
+}
+.walkin input[type=text], input[type=password] {
+  margin:15px;
+  color:black!important;
+}
+.walkinhead{
+  color:#BC9C63 !important;
+  font-weight:700;
+}
+.headerlogo{
+  margin-top: -15px;
+}
+@media screen and (min-width: 800px) {
+  .rightcol{
+    margin-top:100px;
+  }
+  .walkinhead{
+    font-size:36px;
+  }
+  .mainlogo{
+    width:80%;
+    margin-left:10%;
+  }
+
+  .walkinresearch{
+    width:60% !important;
+    margin-left:20% !important;
+    padding:15px!important;
+  }
+}
+@media all and (max-width: 600px){
+  .walkinhead{
+    font-size:26px;
+  }
+  .mainlogo{
+    width:70%;
+    margin-left:15%;
+  }
+  .requestrow{
+    margin:0px!important;
+  }
+  .loginlogout{
+    margin-top:-10px !important;
+  }
+  .loginresponse{
+    font-size:16px !important;
+    margin-top:-10px !important;
+  }
+  .pw{
+    margin-left:14px !important;
+  }
+}
+
+.request2{
+  margin-top:100px;
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+  .mainlogo{
+    width:50%;
+    margin-left:25%;
+    margin-bottom:3%;
+  }
+}
